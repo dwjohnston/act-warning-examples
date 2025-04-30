@@ -11,6 +11,7 @@ const config: Config = {
 
   // Stop running tests after `n` failures
   // bail: 0,
+   testEnvironment: 'jsdom',
 
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "/private/var/folders/h2/bmnrxrkj0n766_6nk5flxlcr0000gn/T/jest_dx",
